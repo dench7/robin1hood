@@ -90,5 +90,5 @@ def work(mail43):
 
 
 if __name__ == '__main__':
-    p = Pool(processes=1) # кол-во потоков
+    p = Pool(processes=1) 
     p.map(work, mail42)
